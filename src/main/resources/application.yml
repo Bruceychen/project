@@ -1,2 +1,7 @@
 server:
   port: 8888
+
+message:
+  line:
+    token: "!--<personal token here>"
+    url: "https://notify-api.line.me/api/notify"
