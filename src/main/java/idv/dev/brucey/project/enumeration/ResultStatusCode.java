@@ -9,7 +9,8 @@ import lombok.Setter;
 public enum ResultStatusCode {
     DELETE_SUCCESS(200, "Delete operation succesfully."),
     OK(200, "Success"),
-    SEND_MESSAGE_FAILURE(900, "Send message error.")
+    SEND_MESSAGE_FAILURE(900, "Send message error."),
+    EXECUTE_LOCAL_SHELL_FAILURE(910, "Execute local shell file error.")
     ;
 
     private Integer code;

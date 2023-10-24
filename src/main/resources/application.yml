@@ -1,3 +1,7 @@
+spring:
+  main:
+    lazy-initialization: true
+
 server:
   port: 8888
 
@@ -5,3 +9,10 @@ message:
   line:
     token: "!--<personal token here>"
     url: "https://notify-api.line.me/api/notify"
+
+
+local:
+  shell:
+    file_path: "!--<local shell file path here>"
+
+
